@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat&family=Roboto:ital@0;1&display=swap');
 
-ul {
+.navegador {
     list-style-type: none;
 }
 
@@ -16,7 +16,7 @@ a{
 /*elementos del header*/
 .top-header{
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-left: 235px;
     padding: 0;
     background-color: white;
@@ -25,12 +25,8 @@ a{
     flex-direction: row;
 }
 
-.pic-header{
-    margin-left: 400px;
-}
-
 header{
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     padding-bottom: 0px;
 }
 
@@ -49,21 +45,23 @@ header{
 .titulo{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 300px;
+    font-weight: bolder;
     text-align: left;
     font-size: 14px;
     line-height: 60px;
     background-color: white;
     color:black;
-    margin-top: -20px;
+    margin-top: -15px;
     margin-left: 10px;
+    margin-bottom: 0px;
 }
 
 .rif{
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
+    font-size: 15px;
     padding: 0px;
-    margin-top: -15px;
+    margin-top: 0px;
     margin-left: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -73,7 +71,7 @@ header{
     background-color: white;
     display: flex;
     margin-top: 0px;
-    margin-right: 180px;
+    margin-right: 300px;
     margin-bottom: 0px;
     margin-left: 0px;
     padding-bottom: 0px;
@@ -85,21 +83,21 @@ header{
 }
 
 .menu{
-    margin-top: 10px;
+    margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 20px;
     padding-top: 20px;
-    background-color: rgb(34, 157, 166);
+    background-color: rgb(25, 133, 141);
     border-radius: 10px;
 }
 
 .navegador{
-    background-color: rgb(34, 157, 166);
+    background-color: rgb(25, 133, 141);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-right: 350px;
     margin-bottom: 10px;
     margin-left: 250px;
@@ -133,6 +131,22 @@ li a{
 li a:hover{
     color: rgb(24, 21, 106);
 }
+
+.identifier{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(46, 109, 123);
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 180px;
+    background-color: rgb(217, 246, 250);
+}
+
 
 /*elementos del index.html*/
 
@@ -207,6 +221,20 @@ p.pulsa-aqui{
     padding: 10px 10px 10px 40px;
 }
 
+/*elementos de productos.html*/
+
+.row-cols-1{
+    text-align: center;
+}
+
+.card1{
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 550px;
+    margin-bottom: 40px;
+    margin-left: 550px;
+}
+
 /*elementos de servicios.html*/
 
 .titulo-servicios{
@@ -265,19 +293,18 @@ p.pulsa-aqui{
     margin: 20px;
 }
 
-.customer-service2, .ducts2{
+.ducts2{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     text-align: center;
     line-height: 30px;
 }
 
-.contactanos{
+.customer-service2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-style: bolder;
-    text-align: center;
-    line-height: 60px;
+    font-style: normal;
+    text-align: left;
+    line-height: 30px;
 }
 
 /*elementos de nosotros.html*/
@@ -304,7 +331,7 @@ section h2{
     line-height: 60px;
     letter-spacing: normal;
     word-spacing: normal;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 100px;
 }
 
@@ -314,8 +341,19 @@ section h2{
 }
 
 .handshake{
-    margin: 120px 0px 0px 200px;
+    margin: 80px 0px 0px 200px;
     border-style: none;
+}
+
+.nuestros-valores{
+    color: rgb(46, 109, 123);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.valor-type{
+    line-height: 40px;
 }
 
 p.quienessomos, p.mision, p.vision{
@@ -332,6 +370,15 @@ p.quienessomos, p.mision, p.vision{
     margin-top: 0px;
     margin-right: 250px;
     margin-left: 100px;
+}
+
+.contact-redirect{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: aliceblue;
 }
 
 /*elementos de contacto.html*/
@@ -357,7 +404,7 @@ p.quienessomos, p.mision, p.vision{
 }
 
 .info3{
-    line-height: 35px;
+    line-height: 50px;
     margin-bottom: 40px;
 }
 
@@ -365,6 +412,7 @@ p.quienessomos, p.mision, p.vision{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     line-height: 30px;
+    margin-top: 80px;
     margin-bottom: 15px;
 }
 
